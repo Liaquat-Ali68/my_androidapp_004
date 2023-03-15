@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_number": "541226579292",
+    "project_id": "my-firebaseandroid-projecr01",
+    "storage_bucket": "my-firebaseandroid-projecr01.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:541226579292:android:cb153ee802778b12b1fd99",
+        "android_client_info": {
+          "package_name": "com.example.my_androidapp_04"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "541226579292-dgj4rpuntnjjl0oqqapb4ij3uutt29ck.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxFFgN1bapoyocy-zAEM_Ujw_RbDrxwak"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "541226579292-dgj4rpuntnjjl0oqqapb4ij3uutt29ck.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "541226579292-2bhkcufohd1lbia6cmjnmafq850siac8.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.myVscodeapp01"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:541226579292:android:2a5424f26ee30654b1fd99",
+        "android_client_info": {
+          "package_name": "com.example.my_vscodeapp01"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "541226579292-dgj4rpuntnjjl0oqqapb4ij3uutt29ck.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxFFgN1bapoyocy-zAEM_Ujw_RbDrxwak"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "541226579292-dgj4rpuntnjjl0oqqapb4ij3uutt29ck.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "541226579292-2bhkcufohd1lbia6cmjnmafq850siac8.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.myVscodeapp01"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
