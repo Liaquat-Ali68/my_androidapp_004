@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:my_androidapp_04/views/login_view.dart';
 import 'package:my_androidapp_04/views/register_view.dart';
 import 'package:my_androidapp_04/views/verify_email_view.dart';
+import 'constants/routes.dart';
 import 'firebase_options.dart';
 
 void main() {
@@ -16,9 +17,9 @@ void main() {
       ),
       home: const HomePage(),
       routes: {
-        '/Login/': (context) => const LoginView(),
-        '/Register/': (context) => const RegisterView(),
-        '/App04/': (context) => const AndroidApp04View(),
+        loginRout: (context) => const LoginView(),
+        registerRout: (context) => const RegisterView(),
+        appo4Rout: (context) => const AndroidApp04View(),
       },
     ),
   );
@@ -78,7 +79,7 @@ class _AndroidApp04ViewState extends State<AndroidApp04View> {
                   if (shouldLogOut) {
                     await FirebaseAuth.instance.signOut();
                     Navigator.of(context).pushNamedAndRemoveUntil(
-                      '/Login/',
+                      loginRout,
                       (_) => false,
                     );
                   }
