@@ -3,9 +3,8 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:my_androidapp_04/views/login_view.dart';
 import 'package:my_androidapp_04/views/register_view.dart';
-import 'package:my_androidapp_04/views/verigy_email_view.dart';
+import 'package:my_androidapp_04/views/verify_email_view.dart';
 import 'firebase_options.dart';
-import 'dart:developer' as devtools show log;
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -19,6 +18,7 @@ void main() {
       routes: {
         '/Login/': (context) => const LoginView(),
         '/Register/': (context) => const RegisterView(),
+        '/App04/': (context) => const AndroidApp04View(),
       },
     ),
   );
@@ -46,7 +46,6 @@ class HomePage extends StatelessWidget {
             } else {
               return const LoginView();
             }
-            return Text('Done');
           default:
             return const CircularProgressIndicator();
         }
