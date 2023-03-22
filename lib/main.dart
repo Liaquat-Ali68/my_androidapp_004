@@ -17,9 +17,9 @@ void main() {
       ),
       home: const HomePage(),
       routes: {
-        loginRout: (context) => const LoginView(),
-        registerRout: (context) => const RegisterView(),
-        appo4Rout: (context) => const AndroidApp04View(),
+        loginRoute: (context) => const LoginView(),
+        registerRoute: (context) => const RegisterView(),
+        appo4Route: (context) => const AndroidApp04View(),
       },
     ),
   );
@@ -79,7 +79,7 @@ class _AndroidApp04ViewState extends State<AndroidApp04View> {
                   if (shouldLogOut) {
                     await FirebaseAuth.instance.signOut();
                     Navigator.of(context).pushNamedAndRemoveUntil(
-                      loginRout,
+                      loginRoute,
                       (_) => false,
                     );
                   }

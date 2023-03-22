@@ -1,3 +1,3 @@
-const loginRout = '/login/';
-const registerRout = '/register/';
-const appo4Rout = '/App04/';
+const loginRoute = '/login/';
+const registerRoute = '/register/';
+const appo4Route = '/App04/';
