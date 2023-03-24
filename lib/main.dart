@@ -20,6 +20,7 @@ void main() {
         loginRoute: (context) => const LoginView(),
         registerRoute: (context) => const RegisterView(),
         appo4Route: (context) => const AndroidApp04View(),
+        verifyEmailRoute: (context) => const VerifyEmailView(),
       },
     ),
   );
